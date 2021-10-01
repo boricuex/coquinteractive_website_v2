@@ -1,0 +1,212 @@
+/* GENERAL PAGE STYLES */
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+body {
+    background-color: #f5f5ed;
+}
+
+.container {
+    max-width: 1500px;
+}
+
+@font-face {
+    font-family: "PoetsenOne";
+    src: url("PoetsenOne-Regular.ttf");
+    }
+
+@font-face {
+    font-family: "OldSansBlack";
+    src: url("OldSansBlack.ttf");
+    }
+
+
+
+/* NAVIGATION STYLES */
+
+#logo_name{
+    margin-top: -48px;
+    margin-left: 55px;
+    text-transform: uppercase;
+    font-family: PoetsenOne;
+    font-size: 16px;
+    color: #afa494;
+}
+
+#logo_slogan{
+    margin-top: -4px;
+    margin-left: 56px;
+    font-weight: 500;
+    font-family: OldSansBlack;
+    font-size: 14.5px;
+    color: #afa494;
+}
+
+
+
+/* Customizations for bootstrap, header & footer */
+
+.navbar-custom .navbar-text{
+    font-size: 15px;
+    color: #afa494;
+    background-color: #fff;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+}
+
+
+
+/* Menu items customizations */
+
+#sidebar {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.main_menu:hover {
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 10px 5px -5px #afa494;
+    transition: all 3s;
+    transition-timing-function: ease-in-out;
+}
+
+a.menu_item_1, a.menu_item_2, a.menu_item_3, a.menu_item_4, a.menu_item_5 {
+    text-decoration: none;
+    font-family: OldSansBlack;
+    font-size: 18px;
+    padding: 10px;
+    line-height: 5px;;
+    color: #afa494;
+    cursor: "pointer";
+}
+
+a.menu_item_1:hover, h2.menu_item_1 {
+    color: orangered;
+    font-family: OldSansBlack;
+    font-weight: 100;
+    /* text-shadow: 1px 1px #afa494; */
+}
+
+a.menu_item_2:hover, h2.menu_item_2 {
+    color: orange;
+    font-family: OldSansBlack;
+    font-weight: 100; 
+    /* text-shadow: 1px 1px #afa494; */
+}
+
+a.menu_item_3:hover, h2.menu_item_3 {
+    color: yellowgreen;
+    font-family: OldSansBlack;
+    font-weight: 100;
+    /* text-shadow: 1px 1px #afa494; */
+}
+
+a.menu_item_4:hover, h2.menu_item_4 {
+    color: blue;
+    font-family: OldSansBlack;
+    font-weight: 100;
+    /* text-shadow: 1px 1px #afa494; */
+}
+
+a.menu_item_5:hover, h2.menu_item_5 {
+    color: blueviolet;
+    font-family: OldSansBlack;
+    font-weight: 100;
+    /* text-shadow: 1px 1px #afa494; */
+}
+
+small {
+    color: #afa494;
+    font-family: OldSansBlack;
+}
+
+
+
+/* Section customizations */
+
+#about_section, #services_section, #process_section, #lab_section, #contact_section {
+    margin-top: 50px;
+    /* margin-bottom: 500px; */
+    height: 1000px;
+}
+
+.menu_item_1, .menu_item_2, .menu_item_3, .menu_item_4, .menu_item_5 {
+    margin-top: 100px;
+    padding-top: 25px;
+}
+
+p {
+    text-decoration: none;
+    font-family: OldSansBlack;
+    font-size: 16px;  
+    color:#554e44;
+}
+
+.section_image {
+    height: 400px;
+    width: 400px;
+    padding: 30px;
+    float: left;
+}
+
+.stage_image {
+    height: 200px;
+    width: 200px;
+    align: left;
+}
+
+#about_button {
+    text-decoration: none;
+    font-family: OldSansBlack;
+    font-size: 16px;
+    font-weight: 100;
+    background-color: #554e44;
+    border: none;
+}
+
+#about_button:hover {
+    background-color: orangered;
+}
+
+/* ---------------Box test ---------------------
+.info-box {
+    height: 100%;
+    margin: 10px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+    border-top-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    box-shadow: 0px 10px 5px -5px #afa494;
+}
+---------------------------------------------- */
+
+
+
+/* Animations & Transitions */
+
+@keyframes entrance {
+    from {margin-top: 150px;}
+    to {margin-top: 0px;}
+}
+
+#about_section {
+    animation-name: entrance;
+    animation-duration: 3s;
+}

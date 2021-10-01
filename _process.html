@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="vieport" content="width=device-width, initial-scale=1.0">
+
+<!-- Webpage title -->
+<title>Coquinteractive Design Canvas</title>
+
+<!-- Bootstrap 5 reference -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+<!-- Normalize.css stylesheet reference -->
+<link rel="stylesheet" type="text/css" href="normalize.css">
+
+<!-- Bootstrap 5 icons reference -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+<!-- External stylesheet reference -->
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<!-- Internet Explorer compatibility -->
+<!-- [if IE]>
+   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+   <![endif]-->
+   
+</head>
+
+
+
+<body>
+
+<!-- Header navigation bar -->
+<nav class="navbar sticky-top navbar-expand-md navbar-light bg-light">
+   <div class="container-fluid">
+
+      <!-- Logo & name -->
+      <a class="navbar-brand" href="#">
+         <img src="images/coqui_logo_brown.svg" alt="" class="d-inline-block align-text-top" id="logo_image">
+         <div id="logo_name">Coquinteractive</div>
+         <div id="logo_slogan">web development lab</div>
+      </a>
+
+      <!-- Navigation menu items -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse justify-content-end">
+         <ul class="navbar-nav">
+           <li class="nav-item main_menu"><a id="nav_item_1" class="menu_item_1" class="nav-link active" aria-current="page" href="">about</a></li>
+           <li class="nav-item main_menu"><a id="nav_item_2" class="menu_item_2" class="nav-link" href="_services.html">services</a></li>
+           <li class="nav-item main_menu"><a id="nav_item_3" class="menu_item_3" class="nav-link" href="_process.html">process</a></li>
+           <li class="nav-item main_menu"><a id="nav_item_4" class="menu_item_4" class="nav-link" href="_lab.html">lab</a></li>
+           <li class="nav-item main_menu"><a id="nav_item_5" class="menu_item_5" class="nav-link" href="_contact.html">contact</a></li>
+           <!-- <li class="nav-item"><a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">login</a></li> -->
+         </ul><!-- Closing navigation menu items -->
+</div>
+   </div><!-- Closing class="container-fluid" -->
+</nav><!-- Closing header navigation bar -->
+
+
+
+      <!-- Sidebar navigation menu items -->
+      <div class="row">
+         <div class="col-1 px-1 position-fixed" id="sidebar">
+            <div class="nav flex-column p-3">
+               
+               <ul class="navbar-nav">
+                  <li class="nav-item"><a class="menu_item_1" class="nav-link active" aria-current="page" href="">&#9679;</a></li>
+                  <li class="nav-item"><a class="menu_item_2" class="nav-link" href="_services.html">&#9679;</a></li>
+                  <li class="nav-item"><a class="menu_item_3" class="nav-link" href="_process.html">&#9679;</a></li>
+                  <li class="nav-item"><a class="menu_item_4" class="nav-link" href="_lab.html">&#9679;</a></li>
+                  <li class="nav-item"><a class="menu_item_5" class="nav-link" href="_contact.html">&#9679;</a></li>
+                  <!-- <li class="nav-item"><a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">login</a></li> -->
+                </ul><!-- Closing navigation menu items -->
+ 
+            </div>
+         </div>
+      </div>
+
+
+
+<!-- Process Section -->
+<a name="process">
+   <div class="row" id="process_section">
+      <div class="col-md-2"></div>
+   
+      <div class="col-md-8 section_content">
+         <h2 class="menu_item_3">Process</h2>
+         <p>We apply a simple four-step process to address our case studies.  This way customers can identify and track the progress of their project easily.</p>
+      </div>
+   
+      <div class="col-md-2"></div>
+
+      <div class="row" id="process_stages">
+
+         <div class="col-2"></div>
+
+         <div class="col-2 info-box" class="info-box">
+         <img src="images/Coqui_Meeting_Weedstation.png" alt="" class="stage_image">
+         <h6>Stage 1: Meeting</h6>
+         <br>
+         <p class="process_description">In this stage we arrange a meeting aimed to achieve an understanding of the client's industry or business proposal.</p>
+         </div>
+         
+         <div class="col-2 info-box" class="info-box">
+         <img src="images/Coqui_Research_Weedstation.png" alt="" class="stage_image">
+         <h6>Stage 2: Research</h6>
+         <br>
+         <p class="process_description">We will perform our research to elaborate the best action plan.  We discuss our findings and insight with the client in order to proceed.</p>
+         </div>
+         
+         <div class="col-2 info-box">
+         <img src="images/Coqui_Development_Weedstation.png" alt="" class="stage_image">
+         <h6>Stage 3: Development</h6>
+         <br>
+         <p class="process_description">In this stage we go to our creative laboratory to design concept, branding, UI/UX and application programming.</p>
+         </div>
+         
+         <div class="col-2 info-box">
+         <img src="images/Coqui_Delivery_Weedstation.png" alt="" class="stage_image">
+         <h6>Stage 4: Delivery</h6>
+         <br>
+         <p class="process_description">We deliver the final product, go live, address questions, personnel trainings and troubleshooting.</p>
+         </div>
+
+         <div class="col-2"></div>
+
+      </div>
+   </div></a><!-- Closing Process Section -->
+
+
+   
+   <footer>
+
+      <!-- Logo & name -->
+      <a class="navbar-brand" href="#">
+         <img src="images/coqui_logo_brown.svg" alt="" class="d-inline-block align-text-top" id="footer_logo">
+         <div id="footer_logo_name">Coquinteractive</div>
+         <div id="footer_logo_slogan">web development lab</div>
+      </a>
+   
+      <p>Urb. Pérez Morris #96 Mayaguez St.</p>
+      <p>San Juan, Puerto Rico 00917-5116</p> 
+   
+      <hr>
+   
+      <small>&copy; 2021 Coquinteractive, Inc.  All rights reserved.</small>
+      <img src="images/Coqui_Plant_Weedstation.png" alt="" class="footer_image">
+   
+         <ul class="navbar-nav">
+           <li class="nav-item main_menu"><a class="menu_item_1" class="nav-link active" aria-current="page" href="">about</a></li>
+           <li class="nav-item main_menu"><a class="menu_item_2" class="nav-link" href="_services.html">services</a></li>
+           <li class="nav-item main_menu"><a class="menu_item_3" class="nav-link" href="_process.html">process</a></li>
+           <li class="nav-item main_menu"><a class="menu_item_4" class="nav-link" href="_lab.html">lab</a></li>
+           <li class="nav-item main_menu"><a class="menu_item_5" class="nav-link" href="_contact.html">contact</a></li>
+           <!-- <li class="nav-item"><a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">login</a></li> -->
+         </ul><!-- Closing navigation menu items -->
+   
+   </footer>
+
+
+
+<!-- Bootstrap 5 javascript references -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>

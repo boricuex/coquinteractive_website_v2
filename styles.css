@@ -1,0 +1,348 @@
+/* GENERAL PAGE STYLES */
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+body {
+    background-color: #f5f5ed;
+}
+
+.container {
+    max-width: 1500px;
+}
+
+@font-face {
+    font-family: "PoetsenOne-Regular";
+    src: url("PoetsenOne-Regular.ttf");
+    }
+
+
+
+
+    
+/* NAVIGATION LOGO STYLES */
+
+#logo_image {
+    margin-top: -10px;
+}
+
+#logo_name{
+    margin-top: -48px;
+    margin-left: 55px;
+    text-transform: uppercase;
+    font-family: PoetsenOne-Regular;
+    font-size: 16px;
+    color: #afa494;
+}
+
+#logo_slogan{
+    margin-top: -4px;
+    margin-left: 56px;
+    font-weight: 500;
+    font-family: PoetsenOne-Regular;
+    font-size: 13.5px;
+    color: #afa494;
+}
+
+#logo_name:hover, #logo_slogan:hover {
+    font-family: PoetsenOne-Regular;
+}
+
+
+
+
+
+/* Customizations for bootstrap & header */
+
+.navbar-custom .navbar-text {
+    font-size: 10px;
+    color: #afa494;
+    background-color: #fff;
+}
+
+
+
+
+
+/* Customizations for footer */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 15px;
+    width: 100%;
+    height: 150px;
+    background-color: #fff;
+    margin-top: 100px;
+}
+
+.footer_image {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    margin-top: -120px;
+    float: right;
+}
+
+#footer_logo {
+    width: 30px;
+    height: 30px;
+}
+
+#footer_logo_name{
+    margin-top: -30px;
+    margin-left: 35px;
+    text-transform: uppercase;
+    font-family: PoetsenOne-Regular;
+    font-size: 11px;
+    color: #afa494;
+}
+
+#footer_logo_slogan{
+    margin-top: -2px;
+    margin-left: 36px;
+    font-weight: 500;
+    font-family: PoetsenOne-Regular;
+    font-size: 9.3px;
+    color: #afa494;
+}
+
+footer p {
+    color: #afa494;
+    margin-top: -20px;
+    margin-left: 5px;
+    font-size: 11px;
+}
+
+hr {
+    margin-top: 5px;
+    color: #afa494;
+}
+
+small {
+    position: relative;
+    left: 50%;
+    margin-left: -50px;
+    color: #afa494;
+    font-family: PoetsenOne-Regular;
+    font-size: 10px;
+}
+
+
+
+
+
+/* Menu items customizations */
+
+#sidebar {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+a.menu_item_1, a.menu_item_2, a.menu_item_3, a.menu_item_4, a.menu_item_5 {
+    text-decoration: none;
+    font-family: PoetsenOne-Regular;
+    font-size: 18px;
+    padding: 22px;
+    line-height: 50px;
+    color: #afa494;
+    cursor: "pointer";
+}
+
+a#nav_item_1:hover, a#nav_item_2:hover, a#nav_item_3:hover, a#nav_item_4:hover, a#nav_item_5:hover {
+    -webkit-box-shadow: 0 0 10px #afa494;
+    -moz-box-shadow: 0 0 10px #afa494;
+    -o-box-shadow: 0 0 10px #afa494;
+    box-shadow: 1 -10 10px 5px #afa494;
+    /* transition: all .5s; */
+} 
+
+
+
+a.menu_item_1:hover, h2.menu_item_1 {
+    color: orangered;
+    font-family: PoetsenOne-Regular;
+}
+
+a.menu_item_2:hover, h2.menu_item_2 {
+    color: orange;
+    font-family: PoetsenOne-Regular;
+}
+
+a.menu_item_3:hover, h2.menu_item_3 {
+    color: yellowgreen;
+    font-family: PoetsenOne-Regular;
+}
+
+a.menu_item_4:hover, h2.menu_item_4 {
+    color: blue;
+    font-family: PoetsenOne-Regular;
+}
+
+a.menu_item_5:hover, h2.menu_item_5 {
+    color: blueviolet;
+    font-family: PoetsenOne-Regular;
+}
+
+
+
+
+
+/* Section customizations */
+
+.menu_item_1, .menu_item_2, .menu_item_3, .menu_item_4, .menu_item_5 {
+    margin-top: 100px;
+    padding-top: 25px;
+}
+
+p, ul {
+    text-decoration: none;
+    font-family: PoetsenOne-Regular;
+    font-size: 18px;  
+    font-weight: 100;
+    color:#554e44;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.service_item {
+    margin: 1px;
+    padding: 5px;
+}
+
+.service_item:hover {
+    background-color: #554e44;
+    width: 400px;
+    color: #f5f5ed;
+    opacity: 50%;
+}
+
+.section_image {
+    height: 400px;
+    width: 400px;
+    padding: 30px;
+    
+}
+
+.stage_image {
+    height: 200px;
+    width: 200px;
+    box-align: left;
+}
+
+#about_button {
+    text-decoration: none;
+    font-family: PoetsenOne-Regular;
+    font-size: 16px;
+    font-weight: 100;
+    background-color: #554e44;
+    border: none;
+    color: #f5f5ed;
+}
+
+#about_button:hover {
+    background-color: orangered;
+    box-shadow: 0 0 10px orangered;
+    -webkit-box-shadow: 0 0 10px orangered;
+    -moz-box-shadow: 0 0 10px orangered;
+    -o-box-shadow: 0 0 10px orangered;
+    transition: all .5s ease-in-out;
+}
+
+.info-box {
+    margin-right: 20px;
+}
+
+.process_description {
+    text-decoration: none;
+    font-family: PoetsenOne-Regular;
+    font-size: 14px; 
+}
+
+
+
+
+
+/* Section entrance animation */
+@keyframes entrance {
+    from {opacity:0%; margin-top: 50px; opacity: 0;}
+    to {opacity:100%; margin-top: 0px; opacity: 1;}
+}
+
+.section_content {
+    animation-name: entrance;
+    animation-duration: .5s;
+    
+    animation-timing-function: ease-in;
+}
+
+.section_image {
+    animation-name: entrance;
+    animation-duration: .8s;
+    animation-timing-function: ease-in;
+}
+
+.info-box, .stage_image {
+    animation-name: entrance;
+    animation-duration: .8s;
+    animation-timing-function: ease-in;
+}
+
+
+
+
+
+/* Form cutomizations */
+label {
+    font-size: 14px;
+    font-family: PoetsenOne-Regular;
+    color:#554e44;
+}
+
+input[type=text], input[type=email], input[type=phone], textarea {
+    font-size: 14px;
+    padding: 5px;
+    width: 300px;
+    margin-bottom: 10px;
+    font-family: PoetsenOne-Regular;
+    color: blueviolet;
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=phone]:focus, textarea:focus {
+    border: 3px solid blueviolet;
+  }
+
+textarea {
+   height: 100px;
+   resize: none; 
+}
+
+input[type=submit], input[type=reset] {
+    text-decoration: none;
+    font-family: PoetsenOne-Regular;
+    font-size: 16px;
+    font-weight: 100;
+    background-color: #554e44;
+    border: none;
+    color: #f5f5ed;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 25px;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    background-color: blueviolet;
+    box-shadow: 0 0 10px blueviolet;
+    -webkit-box-shadow: 0 0 10px blueviolet;
+    -moz-box-shadow: 0 0 10px blueviolet;
+    -o-box-shadow: 0 0 10px blueviolet;
+    transition: all .5s ease-in-out;

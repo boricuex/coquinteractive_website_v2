@@ -1,0 +1,126 @@
+/* GENERAL PAGE STYLES */
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    background-color: #f5f5ed;
+}
+
+@font-face {
+    font-family: "PoetsenOne";
+    src: url("PoetsenOne-Regular.ttf");
+    }
+
+@font-face {
+    font-family: "OldSansBlack";
+    src: url("OldSansBlack.ttf");
+    }
+
+/* NAVIGATION STYLES */
+
+header {
+    margin-top: px;
+}
+
+#topnavbar {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    background-color: #efefef;
+}
+
+#logo_name{
+    margin-top: -48px;
+    margin-left: 55px;
+    text-transform: uppercase;
+    font-family: PoetsenOne;
+    font-size: 16px;
+    color: #afa494;
+}
+
+#logo_slogan{
+    margin-top: -4px;
+    margin-left: 56px;
+    font-weight: 500;
+    font-family: OldSansBlack;
+    font-size: 14.5px;
+    color: #afa494;
+}
+
+nav {
+    margin-top: 60px;
+    font-weight: 400;
+    font-family: OldSansBlack;
+    font-size: 15px;
+}
+
+ul {
+    margin-bottom: -85px;
+}
+
+li {
+    display: inline-block;
+    float: right;
+    width: 10%;
+    text-align: center;
+}
+
+a.menu_item_1, a.menu_item_2, a.menu_item_3, a.menu_item_4, a.menu_item_5 {
+    text-decoration: none;
+    color: #afa494;
+}
+
+a.menu_item_1:hover {
+    color: orangered;
+    /*  background-color: rgba(250, 181, 160, 0.5);  */
+    /*  border-top: 3px orangered solid;  */
+    /*  padding-top: 21px;  */
+    border-bottom: 3px orangered solid;
+    padding-bottom: 25px;
+    
+}
+
+a.menu_item_2:hover {
+    color: orange;
+    /*  background-color: rgba(250, 232, 150, 0.5);  */
+    /*  border-top: 3px orange solid;  */
+    /*  padding-top: 21px;  */
+    border-bottom: 3px orange solid;
+    padding-bottom: 25px;
+    
+}
+
+a.menu_item_3:hover {
+    color: yellowgreen;
+    /*  background-color: rgba(232, 252, 186, 0.5);  */
+    /*  border-top: 3px yellowgreen solid;  */
+    /*  padding-top: 21px;  */
+    border-bottom: 3px yellowgreen solid;
+    padding-bottom: 25px;
+}
+
+a.menu_item_4:hover {
+    color: blue;
+    /*  background-color: rgba(181, 180, 253, 0.5);  */
+    /*  border-top: 3px blue solid;  */
+    /*  padding-top: 21px;  */
+    border-bottom: 3px blue solid;
+    padding-bottom: 25px;
+}
+
+a.menu_item_5:hover {
+    color: blueviolet;
+    /*  background-color: rgba(197, 150, 250, 0.5);  */
+    /*  border-top: 3px blueviolet solid;  */
+    /*  padding-top: 21px;  */
+    border-bottom: 3px blueviolet solid;
+    padding-bottom: 25px;
+}
+
+small {
+    color: #afa494;
+    font-family: OldSansBlack;
+}
